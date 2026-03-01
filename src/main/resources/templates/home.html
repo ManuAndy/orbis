@@ -1,0 +1,13 @@
+<head>
+    <title>Orbis</title>
+    <link rel="stylesheet" th:href="@{/css/home.css}">
+</head>
+
+<body>
+<div class="map-container">
+    <img th:src="@{/images/world_map.png}"
+         alt="World Map"
+         class="world-map">
+</div>
+<div th:replace="fragments/footer :: footer"></div>
+</body>

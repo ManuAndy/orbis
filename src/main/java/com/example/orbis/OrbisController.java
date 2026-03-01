@@ -20,7 +20,7 @@ public class OrbisController {
     @GetMapping("/orbis")
     public String info()
     {
-        return "orbisFirstPage";
+        return "home";
     }
 
     @GetMapping("/nastya")
